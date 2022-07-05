@@ -1,0 +1,47 @@
+site_name: Programmeren
+repo_url: https://github.com/UvA-FNWI/wiskunde-programmeren
+repo_name: Programmeren
+edit_uri: edit/main/docs/
+markdown_extensions:
+  - footnotes
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  - search
+  # - git-revision-date-localized:
+  #     type: datetime
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    # - icon: 'material/email'
+    #   link: mailto:laptops-fnwi@uva.nl
+    #   name: laptops-fnwi@uva.nl
+    - icon: 'material/github'
+      link: https://github.com/UvA-FNWI/wiskunde-programmeren/issues
+      name: GitHub issue tracker
+  generator: false
+# copyright: 'Contact: laptops-fnwi@uva.nl'
+theme:
+  name: material
+  logo: assets/uva.png
+  favicon: assets/uva.png
+  language: nl
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs # Show top level sections as tabs in navbar
+    - navigation.sections # Show second level sections in bold, without requiring a click to expand
+    - navigation.indexes # Do not show index pages separately
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Donker thema
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Licht thema
