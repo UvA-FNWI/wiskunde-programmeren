@@ -16,20 +16,14 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - search
-  # - git-revision-date-localized:
-  #     type: datetime
-extra_css:
-  - stylesheets/extra.css
+  - git-revision-date-localized:
+      type: datetime
 extra:
   social:
-    # - icon: 'material/email'
-    #   link: mailto:laptops-fnwi@uva.nl
-    #   name: laptops-fnwi@uva.nl
     - icon: 'material/github'
       link: https://github.com/UvA-FNWI/wiskunde-programmeren/issues
       name: GitHub issue tracker
   generator: false
-# copyright: 'Contact: laptops-fnwi@uva.nl'
 theme:
   name: material
   logo: assets/uva.png
@@ -41,13 +35,3 @@ theme:
     - navigation.tabs # Show top level sections as tabs in navbar
     - navigation.sections # Show second level sections in bold, without requiring a click to expand
     - navigation.indexes # Do not show index pages separately
-
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Donker thema
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Licht thema
